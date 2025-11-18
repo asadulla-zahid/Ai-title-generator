@@ -1,7 +1,8 @@
 # AI Paragraph Parser API
 ### Intelligent Title Generator + Location / Address Extractor
 Author: Asadullah Zahid
-Live Demo: https://Asadulla-zahid-Ai-paragraph-parser.hf.space
+Test it out here 👇
+https://asadulla-zahid.github.io/ai-title-generator-ui/
 
 ------------------------------------------------------------
 
