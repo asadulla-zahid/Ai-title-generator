@@ -2,7 +2,7 @@
 ### Intelligent Title Generator + Location / Address Extractor
 Author: Asadullah Zahid. 
   
-  Test it out here 👇
+  Test it out here 👉
 https://asadulla-zahid.github.io/ai-title-generator-ui/
 
 ------------------------------------------------------------
