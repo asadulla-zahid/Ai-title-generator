@@ -45,12 +45,11 @@ This project demonstrates real-world machine learning deployment: API developmen
 ## Project Structure
 
 ai-paragraph-parser/
-â”‚
-â”œâ”€â”€ ai_title_engine.py       # NLP engine (titles + locations)
-â”œâ”€â”€ app.py                   # FastAPI server
-â”œâ”€â”€ requirements.txt         # Dependencies
-â”œâ”€â”€ Dockerfile               # HuggingFace Spaces deployment config
-â””â”€â”€ README.md / readme.txt   # Documentation
+- ai_title_engine.py       # NLP engine (titles + locations)
+- app.py                   # FastAPI server
+- requirements.txt         # Dependencies
+- Dockerfile               # HuggingFace Spaces deployment config
+-  README.md.              # Documentation
 
 ------------------------------------------------------------
 
@@ -83,7 +82,7 @@ curl -X POST \
 ## Running Locally
 
 ### Clone repo
-git clone https://github.com/<YOUR_USERNAME>/ai-paragraph-parser
+git clone https://github.com/asadulla-zahid/ai-paragraph-parser
 cd ai-paragraph-parser
 
 ### Install dependencies
@@ -94,17 +93,6 @@ uvicorn app:app --host 0.0.0.0 --port 7860
 
 Open browser:
 http://localhost:7860/docs
-
-------------------------------------------------------------
-
-## Deployment on HuggingFace Spaces
-
-1. Create new Space â†’ choose Docker runtime  
-2. Upload this repo  
-3. HuggingFace auto-builds Dockerfile  
-4. API becomes live at: https://<SPACE-NAME>.hf.space
-
-------------------------------------------------------------
 
 ## Roadmap
 - Multi-language support  
